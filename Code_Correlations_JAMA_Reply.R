@@ -1,0 +1,23 @@
+#Set decimals options [digits] and no scientific notation
+options(digits=2,scipen=999)
+
+#Correlation Analysis for JAMA Reply to Cruz-Cano and Mead
+
+#Import Deaths
+deaths <- read.csv("PATH GOES HERE/Puerto_Rico_Deaths_00_17.csv")
+
+###This is the analysis using the data for the 2000-2016 period
+cor.test(x=deaths$Pop_Est,y=deaths$Total_Deaths,alternative = "two.sided",method ="pearson",conf.level = 0.95)
+
+#Correlations using data from Table_2,Period Deaths
+cor.test(x=deaths$Pop_Est,y=deaths$Period_Deaths,alternative = "two.sided",method ="pearson",conf.level = 0.95)
+
+#This section of the analysis excludes the observations before 2010
+#Now, I subset the information using the subset function
+deaths<-subset(deaths, Year>2009)
+
+#Correlations using Period Deaths 2010-2016
+cor.test(x=deaths$Pop_Est,y=deaths$Period_Deaths,alternative = "two.sided",method ="pearson",conf.level = 0.95)
+
+#Correlations using Total Deaths 2010-2016
+cor.test(x=deaths$Pop_Est,y=deaths$Total_Deaths,alternative = "two.sided",method ="pearson",conf.level = 0.95)
