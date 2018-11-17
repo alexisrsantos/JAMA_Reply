@@ -4,13 +4,13 @@ This repository contains information and code that support our Letter in respons
 # Content
 This reposity contains:
 
-* [R code for calculating the correlation between total population and total deaths between 2000 and 2016, and 2010-2016]( 
-Code_Correlations_JAMA_Reply.R)
+* [R code for calculating the correlation between total population, and total and period-specific deaths between 2000 and 2016, and 2010-2016](Code_Correlations_JAMA_Reply.R)
 
-* [A comma separated value file (csv) that includes the following variables](:
-
-    + 2000-2016 Population Estimates for Puerto Rico
-    + 2000-2016 Total Deaths for Puerto Rico 
+* [A comma separated value file (csv) that includes the following variables](Puerto_Rico_Deaths_00_17.csv):
+    + Year - Year of the Observation 
+    + Pop_Est - 2000-2016 Population Estimates for Puerto Rico produced by the U.S. Census Bureau 
+    + Total_Deaths - 2000-2016 Total Deaths for Puerto Rico 
+    + Period_Deaths - 2000-2016 Period Specific Deaths (September-December)  
 
 # Data 
 
