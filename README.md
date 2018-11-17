@@ -2,7 +2,7 @@
 This repository contains supporting information and code for our Research Letter in response to Cruz-Cano and Mead published in the Journal of the American Medical Association.
 
 # Content
-This reposity contains
+This reposity contains:
 
 * R code for calculating the correlation between total population and total deaths between 2000 and 2016.
 
