@@ -6,8 +6,8 @@ This reposity contains
 
 * R code for calculating the correlation between total population and total deaths between 2000 and 2016.
 * A comma separated value file (csv) that includes the following variables: 
-    + Mid-Year Population Estimate
-    + Total Deaths for Puerto Rico 
+    + 2000-2016 Population Estimates for Puerto Rico
+    + 2000-2016 Total Deaths for Puerto Rico 
 
 # Problems?
 If you find any problems with our data or code, please create an [issue](https://github.com/alexisrsantos/JAMA_Reply/issues) and we will answer as soon as possible. 
