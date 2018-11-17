@@ -32,7 +32,7 @@ In this first figure, we present the pattern of population estimates and total d
 ## Population Estimates and Period Specific Deaths (September-December)
 In this second figure, we present the pattern of population estimates and period specific deaths for Puerto Rico 2000-2016
 
-![Figure 2](https://78.media.tumblr.com/b915c1a78e75c0ace25155a5e78a5a4b/tumblr_pd6486BwKK1x0of5no1_540.png)
+![Figure 2](Total_Deaths_Pop_B.jpg)
 
 
 # Problems?
