@@ -25,6 +25,13 @@ With that preliminary dataset we produced early estimates, which were shared as 
 
 This is how we built the dataset used for our analysis.
 
+# Visualization of Total Population and Death Counts (Total and Period Specific)
+
+In this first figure, we present the pattern of population estimates and total deaths for Puerto Rico 2000-2016.
+
+
+In this second figure, we present the pattern of population estimates and period specific deaths (Sept-Dec) for Puerto Rico 2000-2016
+
 # Problems?
 If you find any problems with our data or code, please create an [issue](https://github.com/alexisrsantos/JAMA_Reply/issues) and we will answer as soon as possible. 
 
