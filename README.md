@@ -4,7 +4,7 @@ This repository contains information and code that support our Letter in respons
 # Content
 This reposity contains:
 
-* [R code for calculating the correlation between total population, and total and period-specific deaths between 2000 and 2016, and 2010-2016](Code_Correlations_JAMA_Reply.R)
+* [R code for calculating the Pearso Correlation Coefficient between total population, and total and period-specific deaths between 2000 and 2016, and 2010-2016](Code_Correlations_JAMA_Reply.R)
 
 * [A comma separated value file (csv) that includes the following variables](Puerto_Rico_Deaths_00_17.csv):
     + **Year** - Year of the Observation 
@@ -35,6 +35,7 @@ In this second figure, we present the pattern of population estimates and period
 
 ![Figure 2](Total_Deaths_Pop_B.jpg)
 
+These figures were produced using Excel. 
 
 # Problems?
 If you find any problems with our data or code, please create an [issue](https://github.com/alexisrsantos/JAMA_Reply/issues) and we will answer it as soon as possible. 
