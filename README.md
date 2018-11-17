@@ -5,7 +5,9 @@ This repository contains supporting information and code for our Research Letter
 This reposity contains
 
 * R code for calculating the correlation between total population and total deaths between 2000 and 2016.
-* A comma separated value file (csv) that includes the following variables: 
+
+* A comma separated value file (csv) that includes the following variables:
+
     + 2000-2016 Population Estimates for Puerto Rico
     + 2000-2016 Total Deaths for Puerto Rico 
 
