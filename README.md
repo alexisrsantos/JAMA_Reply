@@ -46,7 +46,7 @@ When we calculate the difference between the number of deaths for our period of 
 
 ![Figure 1](Rplot10.jpeg)
 
-We are sharing our [code file](OLS_Figure_Repository.R).
+We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figure above. .
 
 * This will guide you through the process of: 
     + Importing the data
@@ -55,7 +55,7 @@ We are sharing our [code file](OLS_Figure_Repository.R).
     + Solving the OLS formula **without** Hurricane Maria effects
     + Producing "prediction intervals" for the observations 
     + Merging everything in one dataset with *cbind* 
-    + Produce the [figure](RPlot10.jpeg) shown above
+    + Produce the [exact figure](RPlot10.jpeg) you see above
 
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
