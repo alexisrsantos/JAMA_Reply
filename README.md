@@ -13,11 +13,11 @@ This reposity contains:
     + **Period_Deaths** - 2000-2016 Period Specific Deaths (September-December)  
 
 * [A second csv file, for the Regression Analysis detailed below](Puerto_Rico_Deaths_00_17.csv). This file includes the following  variables:
-    + **Year** - Year of the Observation **Independent Variable: this is included to control for trends**
+    + **Year** - Year of the Observation **Independent Variable**
     + **Pop_Est** - 2000-2017 Population Estimates for Puerto Rico produced by the U.S. Census Bureau **Not used**
     + **Total_Deaths** - 2000-2017 Total Deaths for Puerto Rico **Not used**
     + **Period_Deaths** - 2000-2017 Period Specific Deaths (September-December)  - **Dependent Variable**
-    + **Hurricane Maria** - a dummy variable that models 2017 as receiving the "shock" of Hurricane Maria **Independent Variable**
+    + **Hurricane Maria** - a dummy variable that models 2017 as receiving a "shock"  **Independent Variable**
 
 # Data 
 
