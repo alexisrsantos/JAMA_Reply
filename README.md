@@ -26,7 +26,9 @@ This is how we built the dataset used for our analysis.
 
 
 # Regression Approach to Predicting Deaths using 2000-2017 data
-Figure 1, below, was produced using data from 2000-2017. I specified an OLS model controlling for year and Hurricane Maria (dummy for 2017). The results shown below include: 
+Figure 1, below, was produced using data from 2000-2017. I specified an OLS model controlling for year and Hurricane Maria (dummy for 2017). 
+
+* The results shown below include: 
     + Observations - black dots
     + Predicted value - blue line
     + Confidence Intervals of the Predicted Value - Grey 
@@ -36,14 +38,14 @@ When we calculate the difference between the number of deaths for our period of 
 
 ![Figure 1](Rplot10.jpeg)
 
-If you use the data shared in this repository in combination with this [code file](OLS_Figure_Repository.R) you will be able to fdo the following: 
+If you use the data shared in this repository in combination with this [code file](OLS_Figure_Repository.R) you will be able to * do the following: 
          + Import the data
          + Fit an basic OLS model using the lm function. We ran many models, and our results are robust to other specifications. 
          + Produce the "synthetic" data to solve the equation produced with lm (new_year object).
          + Solve the ols model without Hurricane Maria effects
          + Produce prediction intervals for the observations. 
          + Merge everything in one dataset with cbind. 
-         +Produce the figure shown above.
+         + Produce the figure shown above.
 
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
