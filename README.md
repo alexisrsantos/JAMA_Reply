@@ -38,14 +38,16 @@ When we calculate the difference between the number of deaths for our period of 
 
 ![Figure 1](Rplot10.jpeg)
 
-If you use the data shared in this repository in combination with this [code file](OLS_Figure_Repository.R) you will be able to * do the following: 
-         + Import the data
-         + Fit an basic OLS model using the lm function. We ran many models, and our results are robust to other specifications. 
-         + Produce the "synthetic" data to solve the equation produced with lm (new_year object).
-         + Solve the ols model without Hurricane Maria effects
-         + Produce prediction intervals for the observations. 
-         + Merge everything in one dataset with cbind. 
-         + Produce the figure shown above.
+If you use the data shared in this repository in combination with this [code file](OLS_Figure_Repository.R) you will be able to do the following: 
+         * Import the data
+         * Fit an basic OLS model using the lm function. We ran many models, and our results are robust to other specifications. 
+         * Produce the "synthetic" data to solve the equation produced with lm (new_year object).
+         * Solve the ols model without Hurricane Maria effects
+         * Produce prediction intervals for the observations. 
+         * Merge everything in one dataset with cbind. 
+         * Produce the figure shown above.
+
+If you have any questions, please create an [issue](https://github.com/alexisrsantos/JAMA_Reply/issues)
 
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
