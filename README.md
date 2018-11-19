@@ -24,16 +24,22 @@ With that preliminary dataset we produced early estimates, which were shared as 
 
 This is how we built the dataset used for our analysis.
 
+
+# Regression Approach to Predicting Deaths using 2000-2017 data
+In this figure, we show that considering the data from 2000 until 2017 modeled produces results consistent with our previous estimates.
+
+![Figure 1](Rplot10.jpg)
+
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
 In this first figure, we present the pattern of population estimates and total deaths for Puerto Rico 2000-2016.
 
-![Figure 1](Total_Deaths_Pop_A.jpg)
+![Figure 2](Total_Deaths_Pop_A.jpg)
 
 ## Population Estimates and Period Specific Deaths (September-December)
 In this second figure, we present the pattern of population estimates and period specific deaths for Puerto Rico 2000-2016
 
-![Figure 2](Total_Deaths_Pop_B.jpg)
+![Figure 3](Total_Deaths_Pop_B.jpg)
 
 These figures were produced using Excel. 
 
