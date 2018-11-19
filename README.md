@@ -32,9 +32,18 @@ Figure 1, below, was produced using data from 2000-2017. I specified an OLS mode
     + Confidence Intervals of the Predicted Value - Grey 
     + Prediction Intervals for the Observation - dashed red lines
 
-When we calculate the difference between the number of deaths for our period of interest and the upper level of the 95% C.I. the result is 1,011 excess deaths. The differences found here could come from use of updated counts for the 2013-2017 years as released in May 31, 2018 by the Government of Puerto Rico. Nevertheless, the number falls withing the interval presented in our previous Research Letter. (1,139, 95% C.I.=1,006;1,272) and within the interval of the census-based model discussed in our Reply..
+When we calculate the difference between the number of deaths for our period of interest and the upper level of the 95% C.I. the result is **1,011 excess deaths**. The differences found here could come from use of updated counts for the 2013-2017 years as released in May 31, 2018 by the Government of Puerto Rico. Nevertheless, the number falls withing the interval presented in our previous Research Letter. **(1,139, 95% C.I.=1,006;1,272)** and within the interval of the census-based model discussed in our Reply. 
 
 ![Figure 1](Rplot10.jpeg)
+
+If you use the data shared in this repository in combination with this [code file](OLS_Figure_Repository.R) you will be able to fdo the following: 
+         + Import the data
+         + Fit an basic OLS model using the lm function. We ran many models, and our results are robust to other specifications. 
+         + Produce the "synthetic" data to solve the equation produced with lm (new_year object).
+         + Solve the ols model without Hurricane Maria effects
+         + Produce prediction intervals for the observations. 
+         + Merge everything in one dataset with cbind. 
+         +Produce the figure shown above.
 
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
