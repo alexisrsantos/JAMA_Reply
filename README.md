@@ -28,7 +28,7 @@ This is how we built the dataset used for our analysis.
 # Regression Approach to Predicting Deaths using 2000-2017 data
 In this figure, we show that considering the data from 2000 until 2017 modeled produces results consistent with our previous estimates.
 
-![Figure 1](Rplot10.jpg)
+![Figure 1](Rplot10.jpeg)
 
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
