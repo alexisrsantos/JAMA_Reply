@@ -56,8 +56,6 @@ We are sharing our [code file](OLS_Figure_Repository.R).
     + Merging everything in one dataset with *cbind* 
     + Produce the [figure](RPlot10.jpeg) shown above
 
-If you have any questions, please create an [issue](https://github.com/alexisrsantos/JAMA_Reply/issues)
-
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
 In this first figure, we present the pattern of population estimates and total deaths for Puerto Rico 2000-2016.
