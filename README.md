@@ -13,7 +13,7 @@ This reposity contains:
     + **Period_Deaths** - 2000-2016 Period Specific Deaths (September-December)  
 
 * [A second csv file, for the Regression Analysis detailed below](Puerto_Rico_Deaths_00_17.csv). This file includes the following  variables:
- + **Year** - Year of the Observation 
+    + **Year** - Year of the Observation 
     + **Pop_Est** - 2000-2017 Population Estimates for Puerto Rico produced by the U.S. Census Bureau 
     + **Total_Deaths** - 2000-2017 Total Deaths for Puerto Rico **(this is not used in the regression model)**
     + **Period_Deaths** - 2000-2017 Period Specific Deaths (September-December)  
