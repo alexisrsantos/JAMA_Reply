@@ -1,5 +1,5 @@
 # Introduction 
-This repository contains information and code that support our Letter in response to Cruz-Cano and Mead published in the Journal of the American Medical Association.
+This repository contains information and code that support our Letter in response to Cruz-Cano and Mead published in the Journal of the American Medical Association. 
 
 # Content
 This reposity contains:
