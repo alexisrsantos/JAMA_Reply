@@ -39,6 +39,7 @@ When we calculate the difference between the number of deaths for our period of 
 ![Figure 1](Rplot10.jpeg)
 
 If you use the data shared in this repository in combination with this [code file](OLS_Figure_Repository.R) you will be able to do the following: 
+
          * Import the data
          * Fit an basic OLS model using the lm function. We ran many models, and our results are robust to other specifications. 
          * Produce the "synthetic" data to solve the equation produced with lm (new_year object).
