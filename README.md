@@ -6,11 +6,18 @@ This reposity contains:
 
 * [R code for calculating the Pearson Correlation Coefficient between total population, and total and period-specific deaths between 2000 and 2016, and 2010-2016](Code_Correlations_JAMA_Reply.R)
 
-* [A comma separated value file (csv) that includes the following variables](Puerto_Rico_Deaths_00_17.csv):
+* [A comma separated value file (csv), for the correlation analysis, that includes the following variables](Puerto_Rico_Deaths_00_16.csv):
     + **Year** - Year of the Observation 
     + **Pop_Est** - 2000-2016 Population Estimates for Puerto Rico produced by the U.S. Census Bureau 
     + **Total_Deaths** - 2000-2016 Total Deaths for Puerto Rico 
     + **Period_Deaths** - 2000-2016 Period Specific Deaths (September-December)  
+
+* [A second csv file, for the Regression Analysis detailed below](Puerto_Rico_Deaths_00_17.csv). This file includes the following  variables:
+ + **Year** - Year of the Observation 
+    + **Pop_Est** - 2000-2017 Population Estimates for Puerto Rico produced by the U.S. Census Bureau 
+    + **Total_Deaths** - 2000-2017 Total Deaths for Puerto Rico **(this is not used in the regression model)**
+    + **Period_Deaths** - 2000-2017 Period Specific Deaths (September-December)  
+    + **Hurricane Maria** - a dummy variable that models 2017 as receiving the "shock" of Hurricane Maria
 
 # Data 
 
