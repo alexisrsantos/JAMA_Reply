@@ -31,6 +31,7 @@ With that preliminary dataset we produced early estimates, which were shared as 
 
 This is how we built the dataset used for our analysis.
 
+Our team, and other teams have encountered that the Government of Puerto Rico keeps sending different totals with each data pull. Some **small** differences could emerge from a more recent data pull from the Puerto Rico Vital Statistics System. 
 
 # Regression Approach to Predicting Deaths using 2000-2017 data
 Figure 1, below, was produced using data from 2000-2017. I specified an OLS model controlling for year and Hurricane Maria (dummy for 2017). 
