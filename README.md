@@ -44,7 +44,7 @@ We are sharing our [code file](OLS_Figure_Repository.R).
     + Importing the data
     + Fitting an basic OLS model using the lm function. We ran many models, and our results are robust to other specifications 
     + Producing the "synthetic" data to solve the equation produced with lm (new_year object)
-    + Solving the OLS formula without Hurricane Maria effects
+    + Solving the OLS formula **without** Hurricane Maria effects
     + Producing "prediction intervals" for the observations 
     + Merging everything in one dataset with *cbind* 
     + Produce the [figure](RPlot10.jpeg) shown above
