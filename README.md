@@ -44,6 +44,7 @@ Figure 1, below, was produced using data from 2000-2017. I specified an OLS mode
 
 When we calculate the difference between the number of deaths for our period of interest and the upper level of the 95% C.I. the result is **1,011 excess deaths**. The differences found here could come from use of updated counts for the 2013-2017 years as released in May 31, 2018 by the Government of Puerto Rico. Nevertheless, the number falls withing the interval presented in our previous Research Letter (1,139, 95% CI=1,006;1,272) and within the interval of the census-based model discussed in our Reply 1,191 excess deaths (95% CI 836; 1544). 
 
+### Figure 1
 ![Figure 1](Rplot10.jpeg)
 
 We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figure above. .
@@ -59,13 +60,15 @@ We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figu
 
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
-In this first figure, we present the pattern of population estimates and total deaths for Puerto Rico 2000-2016.
+In Figure 2, we present the pattern of population estimates and total deaths for Puerto Rico 2000-2016.
 
+### Figure 2
 ![Figure 2](Total_Deaths_Pop_A.jpg)
 
 ## Population Estimates and Period Specific Deaths (September-December)
-In this second figure, we present the pattern of population estimates and period specific deaths for Puerto Rico 2000-2016
+In this Figure 3, we present the pattern of population estimates and period specific deaths for Puerto Rico 2000-2016
 
+### Figure 3
 ![Figure 3](Total_Deaths_Pop_B.jpg)
 
 These figures were produced using Excel. 
