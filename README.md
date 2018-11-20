@@ -54,18 +54,19 @@ Nevertheless, this estimate falls within the interval presented in our previous 
 We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figure above. .
 
 * This will guide you through the process of: 
-    * Importing the data
-    * Fitting an basic OLS model using the lm function. We ran many models, and our results are robust to other specifications 
-    * Producing the "synthetic" data to solve the equation produced with lm (new_year object)
-    * Solving the OLS formula **without** Hurricane Maria effects
-    * Producing "prediction intervals" for the observations 
-    * Merging everything in one dataset with *cbind* 
-    * Produce [Figure 1](RPlot10.jpeg) 
-    * Produce the Confidence Intervals which reflect the uncertainty around the mean prediction values
-    + A detailed explanation of this can be found [here](http://www.sthda.com/english/articles/40-regression-analysis/166-predict-in-r-model-predictions-and-confidence-intervals/]
-    * Creating the final data file
-    * Subsetting the data to only keep 2017
-    * Calculate excess deaths as the difference between the deaths for the period of interest and the upper limit of the 95% CI 
+    1. Importing the data
+    2. Fitting an basic OLS model using the lm function. We ran many models, and our results are robust to other specifications 
+    3. Producing the "synthetic" data to solve the equation produced with lm (new_year object)
+    4. Solving the OLS formula **without** Hurricane Maria effects
+    5. Producing "prediction intervals" for the observations 
+    6. Merging everything in one dataset with *cbind* 
+    7. Produce [Figure 1](RPlot10.jpeg) 
+    8. Produce the Confidence Intervals which reflect the uncertainty around the mean prediction values
+    9. Creating the final data file
+    10. Subsetting the data to only keep 2017
+    11. Calculate excess deaths as the difference between the deaths for the period of interest and the upper limit of the 95% CI 
+    
+A detailed explanation of the *predict* fundction can be found [here](http://www.sthda.com/english/articles/40-regression-analysis/166-predict-in-r-model-predictions-and-confidence-intervals/]. 
 
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
