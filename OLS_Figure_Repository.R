@@ -9,7 +9,9 @@ deaths_raw<-read.csv(file="PATH HERE/Puerto_Rico_Deaths_00_17.csv")
 ##Not our prefered model
 ## As an outlier, 2017 will drive the errors up, but we control with a Dummy Variable
 
-##Here we create the model including the shock of Hurricane Maria
+## Here we create the model including the shock of Hurricane Maria
+## I include Year in the OLS model, but it could be just a model with a year identified (0:17)
+## The results are the same
 model<-lm(Period_Deaths~(Year)+Hurricane_Maria,data=deaths_raw)
 
 #Here we create our new dataset with years, and building a no-Hurricane Maria scenario
