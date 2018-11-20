@@ -16,7 +16,7 @@ model<-lm(Period_Deaths~(Year)+Hurricane_Maria,data=deaths_raw)
 new_year<-data.frame(Year=c(2000:2017),Hurricane_Maria=rep(0,18))
 
 #In this line we predict the values taking away the shock of Hurricane Maria
-pred.int<-predict(model,newdata=new_year,interval="prediction")
+pred.int<-predict(model,newdata=new_year,interval="confidence")
 
 #Here, we turn the predicted values in a dataset
 pred.int<-as.data.frame(pred.int)
@@ -36,3 +36,18 @@ p <- ggplot(mydata, aes(Year, Period_Deaths)) +
 
 # Show the figure
 p
+
+# In the following lines of code, I produce a Confidence Interval using the for the OLS model and the synthetic data.
+# The upper limit (upr) of observation seventheen interval produced using predic and the OLS model is substracted 
+# from the 2017 observation to calculate the number of deaths in excess. 
+
+conf.int<-predict(model,newdata=new_year,interval="confidence") #Calculate Confidence Intervals from OLS parameters
+
+mydata2<-cbind(deaths_raw,round(conf.int,0)) #Create new data and round up to the closest integer
+
+#Subset the data for 2017 Only
+excess_data<-subset(mydata2, Year>2016)
+excess<-excess_data$Period_Deaths-excess_data$upr
+
+#Show excess calculation
+excess
