@@ -39,10 +39,14 @@ Figure 1, below, was produced using data from 2000-2017. I specified an OLS mode
 * The results shown below include: 
     + Observations - black dots
     + Predicted value - blue line
-    + Confidence Intervals of the Predicted Value - Grey 
-    + Prediction Intervals for the Observation - dashed red lines
+    + Confidence Intervals of the OLS Predicted Value - Grey 
+    + Prediction Intervals for the Observations - dashed red lines
 
-When we calculate the difference between the number of deaths for our period of interest and the upper level of the 95% C.I. the result is **1,011 excess deaths**. The differences found here could come from use of updated counts for the 2013-2017 years as released in May 31, 2018 by the Government of Puerto Rico. Nevertheless, the number falls withing the interval presented in our previous Research Letter (1,139, 95% CI=1,006;1,272) and within the interval of the census-based model discussed in our Reply 1,191 excess deaths (95% CI 836; 1544). 
+When we calculate the difference between the number of deaths for our period of interest and the upper level of the 95% C.I. of the predicted interval for the observations (11,459 deaths-10,448 deaths). The result is **1,011 excess deaths**. 
+
+The arithmetic difference of this estimate and our previous one come from use of updated counts for the 2013-2017 years as released in May 31, 2018 by the Government of Puerto Rico. 
+
+Nevertheless, this estimate falls within the interval presented in our previous Research Letter (1,139 excess deaths, 95% CI=1,006;1,272) and within the interval of the census-based model discussed in our Reply (1,191 excess deaths, 95% CI 836; 1544). 
 
 ### Figure 1 
 ![Figure 1](Rplot10.jpeg)
