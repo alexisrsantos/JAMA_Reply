@@ -66,7 +66,7 @@ We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figu
     10. Subsetting the data to only keep 2017
     11. Calculate excess deaths as the difference between the deaths for the period of interest and the upper limit of the 95% CI 
     
-A detailed explanation of the *predict* fundction can be found [here] (http://www.sthda.com/english/articles/40-regression-analysis/166-predict-in-r-model-predictions-and-confidence-intervals/]. 
+A detailed explanation of the *predict* function can be found [here](https://www.sthda.com/english/articles/40-regression-analysis/166-predict-in-r-model-predictions-and-confidence-intervals). 
 
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
