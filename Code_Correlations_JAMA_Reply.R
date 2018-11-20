@@ -10,11 +10,14 @@ deaths <- read.csv("PATH GOES HERE/Puerto_Rico_Deaths_00_16.csv")
 deaths<-subset(deaths,Year<2017)
 
 ###This is the analysis using the data for the 2000-2016 period
+###This is the correlation we reference in our Letter in response to Drs. Cruz-Cano and Mead
 cor.test(x=deaths$Pop_Est,y=deaths$Total_Deaths,alternative = "two.sided",method ="pearson",conf.level = 0.95)
 
 ###This is the analysis using the data but with Period Deaths
+###The correlation is not significant either
 cor.test(x=deaths$Pop_Est,y=deaths$Period_Deaths,alternative = "two.sided",method ="pearson",conf.level = 0.95)
 
+#Supplementary Correlation Analysis for the 2010-2016 period
 #This section of the analysis excludes the observations before 2010
 #Here, deaths is a subset for deaths after 2009 only
 deaths<-subset(deaths, Year>2009)
