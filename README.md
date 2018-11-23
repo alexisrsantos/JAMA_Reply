@@ -51,7 +51,7 @@ Nevertheless, this estimate falls within the interval presented in our previous 
 ### Figure 1 
 ![Figure 1](Rplot10.jpeg)
 
-We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figure above. .
+We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figure above.
 
 * This will guide you through the process of: 
     1. Importing the data
