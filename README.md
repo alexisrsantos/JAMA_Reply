@@ -18,6 +18,7 @@ This reposity contains:
     + **Total_Deaths** - 2000-2017 Total Deaths for Puerto Rico - **Not used**
     + **Period_Deaths** - 2000-2017 Period Specific Deaths (September-December)  - **Dependent Variable**
     + **Hurricane Maria** - a dummy variable that models 2017 as receiving a "shock" - **Independent Variable**
+    + **Period_Deaths_Imputed**- 2000-2017 Period Specific Deaths with 2014 imputed as discussed in our pre-print. 
 
 # Data 
 
@@ -68,18 +69,25 @@ We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figu
     
 A detailed explanation of the *predict* function can be found [here](https://www.sthda.com/english/articles/40-regression-analysis/166-predict-in-r-model-predictions-and-confidence-intervals). 
 
+# What about our central estimate?
+In our data for the production of these estimates we noticed that October 2014 was an outlier. We performed a **mean** imputation as described in our pre-print titled [Estimates of excess deaths in Puerto Rico following Hurricane Maria (November, 2017)](https://osf.io/preprints/socarxiv/s7dmu/). Using the method discussed previously, and controlling for 2014 as an outlier as done before we produced the Figure 2, below. 
+
+![Figure 2](RPlot11.jpeg)
+
+The excess deaths estimate when the data are adjusted and fit into an OLS model is 1,157. 
+
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
-In Figure 2, we present the pattern of population estimates and total deaths for Puerto Rico 2000-2016.
-
-### Figure 2
-![Figure 2](Total_Deaths_Pop_A.jpg)
-
-## Population Estimates and Period Specific Deaths (September-December)
-In this Figure 3, we present the pattern of population estimates and period specific deaths for Puerto Rico 2000-2016
+In Figure 3, we present the pattern of population estimates and total deaths for Puerto Rico 2000-2016.
 
 ### Figure 3
-![Figure 3](Total_Deaths_Pop_B.jpg)
+![Figure 3](Total_Deaths_Pop_A.jpg)
+
+## Population Estimates and Period Specific Deaths (September-December)
+In Figure 4, we present the pattern of population estimates and period specific deaths for Puerto Rico 2000-2016.
+
+### Figure 4
+![Figure 4](Total_Deaths_Pop_B.jpg)
 
 These figures were produced using Excel. 
 
