@@ -18,7 +18,7 @@ This reposity contains:
     + **Total_Deaths** - 2000-2017 Total Deaths for Puerto Rico - **Not used**
     + **Period_Deaths** - 2000-2017 Period Specific Deaths (September-December)  - **Dependent Variable**
     + **Hurricane Maria** - a dummy variable that models 2017 as receiving a "shock" - **Independent Variable**
-    + **Period_Deaths_Imputed**- 2000-2017 Period Specific Deaths with 2014 imputed as discussed in our pre-print. 
+    + **Period_Deaths_Imputed**- 2000-2017 Period Specific Deaths with 2014 imputed as discussed in our pre-print. **Dependent Variable in the Supplemental Analysis**
 
 # Data 
 
@@ -69,8 +69,8 @@ We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figu
     
 A detailed explanation of the *predict* function can be found [here](https://www.sthda.com/english/articles/40-regression-analysis/166-predict-in-r-model-predictions-and-confidence-intervals). 
 
-# What about our central estimate?
-In our data for the production of these estimates we noticed that October 2014 was an outlier. We performed a **mean** imputation as described in our pre-print titled [Estimates of excess deaths in Puerto Rico following Hurricane Maria (November, 2017)](https://osf.io/preprints/socarxiv/s7dmu/). Using the method discussed previously, and controlling for 2014 as an outlier as done before we produced the Figure 2, below. 
+# Supplemental Analysis: What about our central estimate?
+In our data for the production of these estimates we noticed that October 2014 was an **outlier**. We performed a **mean** imputation as described in our pre-print titled [Estimates of excess deaths in Puerto Rico following Hurricane Maria (November, 2017)](https://osf.io/preprints/socarxiv/s7dmu/). Using the method discussed previously, and controlling for 2014 as an outlier as done before we produced the Figure 2, below. 
 
 ![Figure 2](Rplot11.jpeg)
 
