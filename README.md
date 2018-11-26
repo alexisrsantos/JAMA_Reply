@@ -72,9 +72,9 @@ A detailed explanation of the *predict* function can be found [here](https://www
 # What about our central estimate?
 In our data for the production of these estimates we noticed that October 2014 was an outlier. We performed a **mean** imputation as described in our pre-print titled [Estimates of excess deaths in Puerto Rico following Hurricane Maria (November, 2017)](https://osf.io/preprints/socarxiv/s7dmu/). Using the method discussed previously, and controlling for 2014 as an outlier as done before we produced the Figure 2, below. 
 
-![Figure 2](RPlot11.jpeg)
+![Figure 2](Rplot11.jpeg)
 
-The excess deaths estimate when the data are adjusted and fit into an OLS model is 1,157. 
+The excess deaths estimate when the data are adjusted and fit into an OLS model is **1,157**. 
 
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
