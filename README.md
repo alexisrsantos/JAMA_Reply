@@ -19,6 +19,8 @@ This reposity contains:
     + **Period_Deaths** - 2000-2017 Period Specific Deaths (September-December)  - **Dependent Variable**
     + **Hurricane Maria** - a dummy variable that models 2017 as receiving a "shock" - **Independent Variable**
 
+$$Period Deaths = B_0+B_1(Year_{i})+B_2(Population Estimate_{i})$$
+
 # Data 
 
 ## Population Estimates
