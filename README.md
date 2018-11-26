@@ -18,7 +18,9 @@ This reposity contains:
     + **Total_Deaths** - 2000-2017 Total Deaths for Puerto Rico - **Not used**
     + **Period_Deaths** - 2000-2017 Period Specific Deaths (September-December)  - **Dependent Variable**
     + **Hurricane Maria** - a dummy variable that models 2017 as receiving a "shock" - **Independent Variable**
-    + **Period_Deaths_Imputed**- 2000-2017 Period Specific Deaths with 2014 imputed as discussed in our pre-print. **Dependent Variable in the Supplemental Analysis**
+    + **Period_Deaths_Imputed**- 2000-2017 Period Specific Deaths with 2014 imputed as discussed in our pre-print. 
+    
+The variable **Period_Deaths_Imputed** is used in a Supplementary Analysis contained in our [code](OLS_Figure_Repository.R) which will be discussed later in this repository. 
 
 # Data 
 
