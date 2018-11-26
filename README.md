@@ -70,11 +70,14 @@ We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figu
 A detailed explanation of the *predict* function can be found [here](https://www.sthda.com/english/articles/40-regression-analysis/166-predict-in-r-model-predictions-and-confidence-intervals). 
 
 # Supplemental Analysis: What about our central estimate?
-In our data for the production of these estimates we noticed that October 2014 was an **outlier**. We performed a **mean** imputation as described in our pre-print titled [Estimates of excess deaths in Puerto Rico following Hurricane Maria (November, 2017)](https://osf.io/preprints/socarxiv/s7dmu/). Using the method discussed previously, and controlling for 2014 as an outlier as done before we produced the Figure 2, below. 
+In our data for the production of the initial and published estimates we noticed that October 2014 was an **outlier**. This was due to the Chinkungunya outbreak in Puerto Rico. 
 
+We performed a **mean** imputation as described in our pre-print titled [Estimates of excess deaths in Puerto Rico following Hurricane Maria (November, 2017)](https://osf.io/preprints/socarxiv/s7dmu/). Using the method discussed previously, and controlling for 2014 as an outlier as done before we produced the Figure 2, below. 
+
+### Figure 2
 ![Figure 2](Rplot11.jpeg)
 
-The excess deaths estimate when the data are adjusted and fit into an OLS model is **1,157**. 
+The excess deaths estimate when the data are adjusted and fit into an OLS model is **1,157**. The code used to produce this estimate is also included in the [code file](OLS_Figure_Repository.R) under *Supplemental analysis: Using the mean imputation for October 2014 deaths*.
 
 # Visualization of Total Population and Death Counts
 ## Population Estimates and Total Deaths
