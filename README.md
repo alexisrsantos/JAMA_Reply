@@ -94,7 +94,7 @@ In Figure 4, we present the pattern of population estimates and period specific 
 ### Figure 4
 ![Figure 4](Total_Deaths_Pop_B.jpg)
 
-These figures were produced using Excel. 
+These figures were produced using Excel (Sorry no code!). 
 
 # Problems?
 If you find any problems with our data or code, please create an [issue](https://github.com/alexisrsantos/JAMA_Reply/issues) and we will answer it as soon as possible. 
