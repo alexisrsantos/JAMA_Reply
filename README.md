@@ -1,4 +1,4 @@
-#Supplement to In Reply: Excess deaths after Hurricane Maria in Puerto Rico
+# Supplement to In Reply: Excess deaths after Hurricane Maria in Puerto Rico
 
 ## Introduction 
 This repository contains information and code that support our Letter in response to Cruz-Cano and Mead published in the Journal of the American Medical Association. 
