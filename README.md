@@ -1,7 +1,9 @@
-# Introduction 
+#Supplement to In Reply: Excess deaths after Hurricane Maria in Puerto Rico
+
+## Introduction 
 This repository contains information and code that support our Letter in response to Cruz-Cano and Mead published in the Journal of the American Medical Association. 
 
-# Content
+## Content
 This reposity contains:
 
 * [R code for calculating the Pearson Correlation Coefficient between total population, and total and period-specific deaths between 2000 and 2016, and 2010-2016](Code_Correlations_JAMA_Reply.R)
@@ -22,12 +24,12 @@ This reposity contains:
     
 The variable **Period_Deaths_Imputed** is used in a Supplementary Analysis contained in our [code](OLS_Figure_Repository.R) which will be discussed later in this repository. 
 
-# Data 
+## Data 
 
-## Population Estimates
+### Population Estimates
 We accessed population estimates for Puerto Rico through [American Factfinder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml). 
 
-## Death Counts
+### Death Counts
 We contacted Jonathan Morales Gonzalez, M.S. (jonmorales@salud.pr.gov) on November 1, 2017 and requested the counts from the Puerto Rico Vital Statistics System for the 2010-2016 period. Mr. Morales Gonzáles is the Vital Statistics and Demographic Affairs Advisor for the Division of Statistical Analysis in the [Puerto Rico Department of Health](http://www.salud.gov.pr/). He provided historical counts for the 2010-2016 period, with the caveat that at that point the 2016 counts were preliminary, and the 2017 counts were being inputed into the system. Some deaths may have been also missing from 2015. Death counts for the 2000-2009 period were drawn from the Center for Diseases Control and Prevention records and validated with publicly shared data produced by the Puerto Rico Department of Health.  The latest public released of the data with official validation by the Government of Puerto Rico was shared in May 31, 2018 which included the deaths registered in the administrative database up until May 31, 2018. Our data includes the updated counts for the 2013-2017 period included in this release of the data. 
 
 With that preliminary dataset we produced early estimates, which were shared as part of our pre-print titled [Estimates of excess deaths in Puerto Rico following Hurricane Maria (November, 2017)](https://osf.io/preprints/socarxiv/s7dmu/). The pre-print also contains information regarding the state of data in Puerto Rico back in November 2017 and **our data management** and **procedures** used to reach the early estimates of approximately **1,085 deaths** by the end of October 2017. 
@@ -36,7 +38,7 @@ This is how we built the dataset used for our analysis.
 
 Our team, and other teams have encountered that the Government of Puerto Rico keeps sending different totals with each data pull. Some **small** differences could emerge from a more recent data pull from the Puerto Rico Vital Statistics System. 
 
-# Regression Approach to Predicting Deaths using 2000-2017 data
+## Regression Approach to Predicting Deaths using 2000-2017 data
 Figure 1, below, was produced using data from 2000-2017. I specified an OLS model controlling for year and Hurricane Maria (dummy for 2017). 
 
 * The results shown below include: 
@@ -51,7 +53,7 @@ The arithmetic difference of this estimate and our previous one come from use of
 
 Nevertheless, this estimate falls within the interval presented in our previous Research Letter (1,139 excess deaths, 95% CI=1,006;1,272) and within the interval of the census-based model discussed in our Reply (1,191 excess deaths, 95% CI 836; 1544). 
 
-### Figure 1 
+#### Figure 1 
 ![Figure 1](Rplot10.jpeg)
 
 We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figure above.
@@ -71,33 +73,33 @@ We are sharing our [code file](OLS_Figure_Repository.R) used to produce the figu
     
 A detailed explanation of the *predict* function can be found [here](https://www.sthda.com/english/articles/40-regression-analysis/166-predict-in-r-model-predictions-and-confidence-intervals). 
 
-# Supplemental Analysis: What about our central estimate?
+## Supplemental Analysis: What about our central estimate?
 In our data for the production of the initial and published estimates we noticed that October 2014 was an **outlier**. This was due to the Chinkungunya outbreak in Puerto Rico. 
 
 We performed a **mean** imputation as described in our pre-print titled [Estimates of excess deaths in Puerto Rico following Hurricane Maria (November, 2017)](https://osf.io/preprints/socarxiv/s7dmu/). Using the method discussed previously, and controlling for 2014 as an outlier as done before we produced the Figure 2, below. 
 
-### Figure 2
+#### Figure 2
 ![Figure 2](Figure2.png)
 
 The excess deaths estimate when the data are adjusted and fit into an OLS model is **1,157**. The code used to produce this estimate is also included in the [code file](OLS_Figure_Repository.R) under *Supplemental analysis: Using the mean imputation for October 2014 deaths*.
 
-# Visualization of Total Population and Death Counts
-## Population Estimates and Total Deaths
+## Visualization of Total Population and Death Counts
+### Population Estimates and Total Deaths
 In Figure 3, we present the pattern of population estimates and total deaths for Puerto Rico 2000-2016.
 
-### Figure 3
+#### Figure 3
 ![Figure 3](Total_Deaths_Pop_A.jpg)
 
-## Population Estimates and Period Specific Deaths (September-December)
+### Population Estimates and Period Specific Deaths (September-December)
 In Figure 4, we present the pattern of population estimates and period specific deaths for Puerto Rico 2000-2016.
 
-### Figure 4
+#### Figure 4
 ![Figure 4](Total_Deaths_Pop_B.jpg)
 
 These figures were produced using Excel (Sorry no code!). 
 
-# Problems?
+## Problems?
 If you find any problems with our data or code, please create an [issue](https://github.com/alexisrsantos/JAMA_Reply/issues) and we will answer it as soon as possible. 
 
-# Metadata
+## Metadata
 This repository is maintained by [Dr. Alexis R. Santos](https://scholar.google.com/citations?user=oPZ-RDgAAAAJ&hl=en) and reviewed by [Dr. Jeffrey T. Howard](https://scholar.google.com/citations?user=l0A2z2YAAAAJ&hl=en).
